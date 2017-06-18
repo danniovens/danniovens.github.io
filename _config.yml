@@ -1,2 +1,7 @@
 theme: jekyll-theme-cayman
-title: Danni Ovens
+title: Dannis Page
+baseurl: ""
+paginate: 1
+
+gems:
+    - jekyll-paginate
