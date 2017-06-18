@@ -1,7 +1,2 @@
 theme: jekyll-theme-cayman
-title: Dannis Page
-baseurl: ""
-paginate: 1
-
-gems:
-    - jekyll-paginate
+title: "Danni's Page"
