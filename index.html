@@ -4,12 +4,13 @@ title: {{ Danni's Site }}
 ---
 
 <div id="home">
-	<h1>Welcome!</h1>
+	<h1>Welcome!!</h1>
 	<ul class="posts">
 		{% for post in site.posts %}
 		<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
   		{% endfor %}
 	</ul>
+	<ul class="btn">Argh</ul>
 </div>
 
-<button type="button">Click Me!</button>
+<a href="https://danniovens.github.io/" class="btn">Press Me!</a>
