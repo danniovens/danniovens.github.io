@@ -1,0 +1,39 @@
+---
+---
+
+@import "{{ site.theme }}";
+// add any cusom CSS below the import line
+.btn2 {
+		display: inline-block;
+		margin-bottom: 1rem;
+		color: rgba(255, 255, 255, 0.7);
+		background-color: rgba(255, 255, 255, 0.4);
+		border-color: rgba(255, 255, 255, 0.2);
+		border-style: solid;
+		border-width: 1px;
+		border-radius: 0.3rem;
+		transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+
+		&:hover {
+				color: rgba(255, 255, 255, 0.8);
+				text-decoration: none;
+				background-color: rgba(255, 255, 255, 0.2);
+				border-color: rgba(255, 255, 255, 0.3);
+	  }
+}
+.btn3 {
+		background-color: #8470FF;
+		border-radius: 0.20em;
+		border: 2px solid #6A5ACD;
+		color: white;
+		position: absolute;
+		top: 10.5cm;
+		left: 300px;
+					}
+
+					.btn:hover {
+							background-color: #68228B;
+							color: white;
+							border-radius: 0.20em;
+							border: 2px solid #68228B;
+									}
